@@ -117,34 +117,34 @@ float alpha = 0.8;
 
 /* Terminal colors (16 first used in escape sequence) */
 static const char *colorname[] = {
-	/* 8 normal colors */
+  /* 8 normal colors */
 
-	[0] = "#323437",
-	[1] = "#ff5454",
-	[2] = "#8cc85f",
-	[3] = "#e3c78a",
-	[4] = "#80a0ff",
-	[5] = "#d183e8",
-	[6] = "#79dac8",
-	[7] = "#a1aab8",
+  [0] = "#161616", //black
+  [1] = "#bd2b2b", //red
+  [2] = "#32ba2b", //green
+  [3] = "#e4f332", //yellow
+  [4] = "#2b4eb5", //blue
+  [5] = "#b02aa5", //purple
+  [6] = "#2aacb8", //aqua
+  [7] = "#f1f1f1", //white
 
-	/* 8 bright colors */
-	[8] = "#7c8f8f",
-	[9] = "#ff5189",
-	[10] = "#36c692",
-	[11] = "#bfbf97",
-	[12] = "#74b2ff",
-	[13] = "#ae81ff",
-	[14] = "#85dc85",
-	[15] = "#e2637f",
+  /* 8 bright colors */
+  [8] = "#474747", //black
+  [9] = "#d54848", //red
+  [10] = "#40d039", //green
+  [11] = "#edf778", //yellow
+  [12] = "#2f8ac6", //blue
+  [13] = "#cf3ac3", //purple
+  [14] = "#37c5d2", //aqua
+  [15] = "#ffffff", //white
 
-	[255] = 0,
+  [255] = 0,
 
-	/* more colors can be added after 255 to use with DefaultXX */
-    [256] = "#eeeeee",
-    [257] = "#444444",
-    [258] = "#080808",
-    [259] = "#eeeeee",
+  /* more colors can be added after 255 to use with DefaultXX */
+  [256] = "#eeeeee",
+  [257] = "#444444",
+  [258] = "#080808",
+  [259] = "#eeeeee",
 };
 
 
